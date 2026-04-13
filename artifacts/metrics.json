@@ -1,0 +1,72 @@
+{
+  "test_metrics": {
+    "accuracy": 0.8193,
+    "auc": 0.896,
+    "sensitivity": 0.8696,
+    "specificity": 0.7568,
+    "precision": 0.8163,
+    "f1": 0.8421,
+    "n_test": 166,
+    "confusion_matrix": [
+      [
+        56,
+        18
+      ],
+      [
+        12,
+        80
+      ]
+    ]
+  },
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "age_chol_ratio",
+    "bp_heart_load",
+    "exang_oldpeak_inter",
+    "age_thalach_deficit",
+    "chol_age_norm",
+    "cp_sex_inter",
+    "ca_thal_score",
+    "risk_cluster",
+    "hr_reserve_ratio",
+    "bp_chol_product",
+    "oldpeak_slope_inter"
+  ],
+  "n_features": 24,
+  "model_type": "StackingClassifier (XGB+LGB+RF+ET+SVC \u2192 LR)",
+  "best_xgb_params": {
+    "n": 758,
+    "d": 3,
+    "lr": 0.03073267220461764,
+    "ss": 0.6529987863940913,
+    "cbt": 0.8570548503191092,
+    "ra": 7.991132536285608,
+    "rl": 0.6784718199218222,
+    "mcw": 2,
+    "gam": 0.15998035173082448,
+    "spw": 1.2113340759742044
+  },
+  "best_lgb_params": {
+    "n": 744,
+    "d": 3,
+    "lr": 0.010304602125508001,
+    "nl": 58,
+    "ss": 0.856713017015789,
+    "cbt": 0.9492511976562685,
+    "ra": 0.0004601338658927527,
+    "rl": 1.9021752742906082,
+    "mcs": 17
+  }
+}

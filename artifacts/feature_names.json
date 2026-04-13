@@ -1,0 +1,1 @@
+["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal", "age_chol_ratio", "bp_heart_load", "exang_oldpeak_inter", "age_thalach_deficit", "chol_age_norm", "cp_sex_inter", "ca_thal_score", "risk_cluster", "hr_reserve_ratio", "bp_chol_product", "oldpeak_slope_inter"]
